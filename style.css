@@ -1,0 +1,47 @@
+html,
+body{
+    height: 100%;
+    background-color: #453823;
+}
+
+h5{
+ font-style: italic;    
+}
+
+.jumbotron{
+    background: url(images/jumbotron-cover.png) no-repeat;
+    background-size: cover;
+    
+}
+
+.truth{
+    margin-bottom: 3rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    text-align: center;
+    display: block;
+    color: white;
+    background-color: #343a40;
+    font-weight: bold; 
+}
+
+@keyframes expand{
+    50%{ height: 12.5%;}
+    100%{height: 25%;background-color: white;color: black;}
+}
+
+.card{
+    background-color: #C0A172;
+    color:#FFF;
+    margin-bottom: 1.75rem;
+}
+
+.card-header a{
+    font-size: 20px;
+    color:#2C2416;
+}
+
+.card-body{
+    background-color: #BAA378;
+    color:#2C2416;
+}
