@@ -7,6 +7,23 @@ body{
 h5{
  font-style: italic;    
 }
+q{
+    color:#BAA378;
+}
+
+.carousel{
+    margin-bottom: 3.5rem;
+    border-bottom-color: inherit;
+    background-color: inherit;
+    height: 85%;
+}
+
+.carousel-inner img{
+    height: 100%;
+    width: 100%;
+}
+
+
 
 .jumbotron{
     background: url(images/jumbotron-cover.png) no-repeat;
@@ -44,4 +61,10 @@ h5{
 .card-body{
     background-color: #BAA378;
     color:#2C2416;
+}
+
+footer{
+    background-color: #333;
+    color:white;
+    border-style: none;
 }
