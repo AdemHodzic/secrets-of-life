@@ -21,9 +21,12 @@ q{
 .carousel-inner img{
     height: 100%;
     width: 100%;
+    filter: grayscale(100%);
 }
 
-
+.display-2{
+    font-weight: 600px;
+}
 
 .jumbotron{
     background: url(images/jumbotron-cover.png) no-repeat;
